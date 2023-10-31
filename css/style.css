@@ -1,0 +1,474 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+     font-size: 16px;
+     line-height: 1.7em;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Satisfy', cursive;
+}
+a{
+	text-decoration: none;
+	list-style: none;
+}
+a:hover{
+	text-decoration: none;
+	list-style: none;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+/*header part start*/
+.header{
+	width: 100%;
+	background: url("../images/Background.png") center top no-repeat;
+	background-size: cover;
+}
+.navbar-expand-xl .navbar-nav .nav-link{
+	font-size: 17px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin: 0px 0px 0px 20px;
+	color: white;
+}
+.icon-header .fa{
+  margin: 0px 0px 0px 80px;
+  border: 1px solid transparent;
+  color: white;
+  font-size: 30px;
+}
+.img-fluid{
+	width: 100%;
+	height: auto;
+}
+.header .navbar-toggler {
+    background-color: white; 
+ 
+}
+.logo{
+	padding: 40px 0px;
+}
+.banner-part .title{
+	padding: 20px 0px;
+}
+.banner-part .title h1{
+	font-size: 82px;
+	text-transform: capitalize;
+	color: white;
+	font-weight: 600;
+	padding: 5px 0px;
+   line-height: 1.3em;
+   letter-spacing: 2px;
+}
+.banner-part .title p{
+  text-transform: uppercase;
+  color: white;
+  font-weight: 400;
+  padding: 10px 0px;
+
+}
+.banner-part .title h5{
+	padding: 10px 0px;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+   text-transform: uppercase;
+  color: white;
+  font-weight: 400;
+  padding: 10px 0px;
+}
+.banner-part .btn-success{
+	padding: 8px 20px;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: black;
+	background: white;
+	transition: 1s;
+	border: 1px solid transparent;
+	border-radius: 40px;
+}
+.banner-part .btn-success:hover{
+	background: black;
+	color: red;
+}
+.banner-img{
+	width: 98%;
+	height: auto;
+}
+/*header part end*/
+
+/*group 2 start*/
+.group-2{
+	width: 100%;
+	padding: 80px 0px;
+}
+.group-2 .title{
+	text-align: center;
+}
+.group-2 .title h1{
+	font-size: 82px;
+	text-transform: capitalize;
+	color: black;
+	font-weight: 600;
+	padding: 5px 0px;
+   line-height: 1.3em;
+   letter-spacing: 2px;
+}
+.group-2 .title h3{
+	font-size: 36px;
+	text-transform: capitalize;
+	color: black;
+	font-weight: 600;
+	padding: 5px 0px;
+   line-height: 1.3em;
+   letter-spacing: 2px;
+}
+.group-2 .title p{
+	text-transform: uppercase;
+  color: black;
+  font-weight: 400;
+  padding: 10px 0px;
+}
+.group-2-img{
+	width: 100%;
+	height: auto;
+	padding: 40px 0px;
+}
+.group-2-btn{
+	padding: 50px 0px;
+	text-align: center;
+}
+.group-2-btn .btn-success{
+	padding: 8px 30px;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: black;
+	background: transparent;
+	transition: 1s;
+	letter-spacing: 1px;
+	border: 1px solid red;
+	border-radius: 40px;
+}
+.group-2-btn .btn-success:hover{
+	background: red;
+	color: white;
+}
+
+/*group 2 end*/
+
+/*group-3 start*/
+.group-3{
+	width: 100%;
+	padding: 80px 0px;
+	background: #27292c;
+}
+.group-3 .title{
+	padding: 20px 0px;
+	text-align: center;
+}
+.group-3 .title h1{
+	font-size: 82px;
+	text-transform: capitalize;
+	color: white;
+	font-weight: 600;
+	padding: 5px 0px;
+   line-height: 1.3em;
+   letter-spacing: 2px;
+}
+.group-3 .title p{
+   text-transform: capitalize;
+  color: white;
+  font-weight: 400;
+}
+
+
+/*group-3 end*/
+
+/*group-4 start*/
+.group-4{
+	width: 100%;
+	padding: 80px 0px;
+}
+.group-4 .grp-4-img{
+	width: 100%;
+	height: auto;
+
+}
+.group-4 .title{
+	padding: 60px 0px;
+}
+.group-4 .title h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 40px;
+	text-transform: capitalize;
+	color: black;
+	font-weight: 900;
+	padding: 5px 0px;
+   line-height: 1.3em;
+   letter-spacing: 2px;
+}
+.group-4 .title p{
+	padding: 20px 0px;
+	text-transform: capitalize;
+  color: black;
+  font-weight: 400;
+}
+.group-4 .btn-success{
+	padding: 8px 30px;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: red;
+	background: black;
+	transition: 1s;
+	letter-spacing: 1px;
+	border: 1px solid red;
+	border-radius: 40px;
+}
+.group-4 .btn-success:hover{
+	background: black;
+	color: white;
+}
+/*group-4 end*/
+
+/*group-5 start*/
+.group-5{
+	width: 100%;
+}
+.group-5 .grp-5-img{
+	width: 100%;
+	height: auto;
+
+}
+.group-5 .title{
+	padding: 50px 0px;
+	margin: 0px 0px 0px 60px;
+}
+.group-5 .title h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 40px;
+	text-transform: capitalize;
+	color: black;
+	font-weight: 900;
+	padding: 5px 0px;
+   line-height: 1.3em;
+   letter-spacing: 2px;
+}
+.group-5 .title p{
+	padding: 20px 0px;
+	text-transform: capitalize;
+  color: black;
+  font-weight: 400;
+}
+.grp-5-btn{
+	margin: 0px 0px 0px 60px;
+}
+.group-5 .btn-success{
+	padding: 8px 30px;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: red;
+	background: black;
+	transition: 1s;
+	letter-spacing: 1px;
+	border: 1px solid red;
+	border-radius: 40px;
+}
+.group-5 .btn-success:hover{
+	background: black;
+	color: white;
+}
+/*group-5 end*/
+
+/*group-6 start*/
+.group-6{
+	width: 100%;
+	padding: 80px 0px;
+	text-align: center;
+	background: url("../images/Background.png") center top no-repeat;
+	background-size: cover;
+}
+.group-6 .title{
+	margin: 0px 0px 0px 300px;
+	padding: 150px 0px;
+	position: absolute;
+}
+.group-6 .title h1{
+	font-size: 60px;
+	text-transform: capitalize;
+	color: white;
+	font-weight: 900;
+	padding: 5px 0px;
+   line-height: 1.3em;
+   letter-spacing: 2px;
+}
+.group-6 .title p{
+	padding: 40px 0px;
+	text-transform: capitalize;
+     color: white;
+    font-weight: 400;
+    background: url("../images/Design.png") center bottom no-repeat;
+    background-size: auto;
+}
+.group-6 .grp-6-img{
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+/*group-6 end*/
+
+/*group-7 start*/
+.group-7{
+	width: 100%;
+	padding: 80px 0px;
+}
+.group-7 .title{
+	padding: 60px 0px;
+	text-align: center;
+}
+.group-7 .title h1{
+	font-size: 60px;
+	text-transform: capitalize;
+	color: black;
+	font-weight: 900;
+	padding: 5px 0px;
+   line-height: 1.3em;
+   letter-spacing: 2px;
+}
+.group-7 .title p{
+	text-transform: capitalize;
+     color: black;
+     font-size: 16px;
+     line-height: 1.4em;
+    font-weight: 400;
+}
+.group-7 .title-1{
+	padding: 80px 0px;
+	text-align: center;
+}
+.group-7 .title-1 p{
+	text-transform: capitalize;
+     color: black;
+     font-size: 20px;
+     line-height: 1.4em;
+    font-weight: 400;
+}
+.group-7 .title-1  h5{
+	padding: 10px 0px;
+	font-size: 40px;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: black;
+	line-height: 1.4em;
+}
+/*.group-7 end*/
+
+/*grp-8 start*/
+.grp-8{
+   width: 100%;
+   padding: 80px 0px;
+ 
+}
+.grp-8 .title{
+	text-align: center;
+	 background: url("../images/grp-7bge.png") center top no-repeat;
+	 background-size: cover;
+
+}
+.grp-8 .title h1{
+	font-size: 60px;
+	text-transform: capitalize;
+	color: white;
+	font-weight: 900;
+	padding: 5px 0px;
+   line-height: 1.3em;
+   letter-spacing: 2px;
+}
+.grp-8 .title p{
+	text-transform: capitalize;
+     color: white;
+     font-size: 16px;
+     line-height: 1.4em;
+    font-weight: 400;
+}
+.grp-8-form{
+	color: white;
+	padding: 40px 0px;
+	margin: 0px 0px 0px 380px;
+	text-align: center;
+
+}
+.grp-8-form .btn-success{
+	padding: 8px 15px;
+	text-transform: uppercase;
+	color: red;
+	background: black;
+	transition: 1s;
+	letter-spacing: 1px;
+	border: 1px solid red;
+	border-radius: 40px;
+}
+/*grp-8 end*/
+
+/*footer start*/
+
+.footer{
+	width: 100%;
+	padding: 80px 0px;
+	text-align: center;
+}
+
+.footer .logo-footer h5{
+	margin: 15px;
+	font-weight: bold;
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	line-height: 1.2em;
+	font-size: 30px;
+	
+}
+.footer .text-footer{
+	text-align: center;
+	font-size: 18px;
+	font-weight: 500;
+	color: black;
+	line-height: 1.2em;
+	margin-right: 50px;
+}
+.icon-footer .fa{
+	color: black;
+	font-size: 34px;
+	letter-spacing: 8px;
+	margin-left: 20px;
+	border-radius: 100%;
+	margin-top: 10px;
+
+}
+.list-menu{
+	list-style: none;
+}
+
+.footer .list-menu  li a{
+    color: red;
+    text-decoration: none;
+    list-style: none;
+}
+.footer-bottom{
+	width: 100%;
+	padding: 40px 0px;
+	text-align: center;
+}
+.copyrights{
+	color: black;
+}
+p a{
+    color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1));
+    text-decoration: none;
+}
+
+/*footer end*/

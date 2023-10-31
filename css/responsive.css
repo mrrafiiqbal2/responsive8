@@ -1,0 +1,542 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  .navbar-expand-xl .navbar-nav .nav-link {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 0px 0px 0px 40px;
+    color: white;
+}
+
+.btn-outline-danger {
+    padding: 10px 30px;
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+.group-6 .title h1 {
+  font-size: 30px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 900;
+    padding: 5px 0px;
+    line-height: 1.3em;
+    letter-spacing: 2px;
+}
+  .group-7 .title h1 {
+    font-size: 45px;
+    text-transform: capitalize;
+    color: black;
+    font-weight: 900;
+    padding: 5px 0px;
+    line-height: 1.3em;
+    letter-spacing: 2px;
+}
+.footer .logo-footer h5 {
+    padding: 20px 0px;
+    margin: 0px 0px 0px 40px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.2em;
+    font-size: 30px;
+}
+p {
+    margin: 0px 0px 0px 70px;
+    font-size: 14px;
+    margin-bottom: 1rem;
+}
+.copyrights{
+  font-size: 30px;
+}
+.icon-footer .fa {
+    color: black;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-left: 20px;
+    border-radius: 100%;
+    margin-top: 10px;
+}
+
+
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .group-2-img{
+    text-align: center;
+  }
+
+.group-4 .title h1 {
+    text-align: end;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    text-transform: capitalize;
+    color: black;
+    font-weight: 900;
+    padding: 5px 0px;
+    line-height: 1.3em;
+    letter-spacing: 2px;
+}
+.group-4 .title p {
+    text-align: end;
+    padding: 20px 0px;
+    text-transform: capitalize;
+    color: black;
+    font-weight: 400;
+}
+.grp-4-btn{
+  text-align: end;
+}
+.group-4 .title {
+    padding: 20px 0px;
+}
+
+.group-6 .title h1 {
+    margin: 0px 0px 0px 0px;
+    padding-bottom: 0px;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 900;
+    /padding: 0px 0px;
+    line-height: 1.3em;
+    letter-spacing: 2px;
+}
+
+.group-6 .title p {
+    padding: 10px 0px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 400;
+    background: url(../images/Design.png) center bottom no-repeat;
+    background-size: auto;
+}
+
+.group-7 .title {
+    padding: 40px 0px;
+    text-align: center;
+}
+.icon-footer .fa {
+    color: red;
+    font-size: 17px;
+    letter-spacing: 2px;
+    margin-left: 20px;
+    border-radius: 100%;
+    margin-top: 10px;
+}
+.footer .logo-footer h5 {
+    padding: 10px 0px;
+    margin: 0px 0px 0px 20px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.2em;
+    font-size: 30px;
+}
+
+.footer-bottom .copyrights {
+     margin: 0px 0px 0px 0px;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+p {
+    margin: 0px 0px 0px 40px;
+    font-size: 10px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .group-2 .title h1 {
+    font-size: 52px;
+    text-transform: capitalize;
+    color: rebeccapurple;
+    font-weight: 600;
+    padding: 5px 0px;
+    line-height: 1.3em;
+    letter-spacing: 2px;
+}
+
+img {
+    max-width: 70%;
+    height: auto;
+    margin: 0px 0px 0px 70px;
+}
+
+
+.logo {
+    margin-left: -30px;
+    padding: 40px 0px;
+}
+
+.group-3 .title h1 {
+    font-size: 52px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 600;
+    padding: 5px 0px;
+    line-height: 1.3em;
+    letter-spacing: 2px;
+}
+.group-2 {
+    width: 100%;
+    padding: 40px 0px;
+}
+.group-4 .title {
+    padding: 20px 0px;
+}
+.group-4 {
+    width: 100%;
+    padding: 40px 0px;
+}
+.group-5 img {
+    padding: 20px 0px;
+    max-width: 70%;
+    height: auto;
+     margin: 0px 0px 0px 0px;
+}
+
+.grp-6-img{
+    max-width: 70%;
+    height: auto;
+    margin-right: 100px;
+}
+
+
+.group-6 .title h1 {
+     font-size: 10px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 900;
+    padding: 5px 0px;
+     line-height: 1.3em;
+    letter-spacing: 2px;
+}
+
+.group-6 .title p {
+    margin-right: 20px;
+    font-size: smaller;
+     padding: 0px 0px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 400;
+    background: url(../images/Design.png) center bottom no-repeat;
+    background-size: auto;
+}
+
+.group-7 .title {
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.group-7 .title-1 p {
+    text-transform: capitalize;
+    color: black;
+    font-size: 15px;
+    line-height: 1.4em;
+    font-weight: 400;
+}
+.group-7 .title-1 h5 {
+    padding: 10px 0px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #59090982;
+    line-height: 1.4em;
+}
+.group-7 .title-1 {
+    padding: 40px 0px;
+    text-align: center;
+}
+
+p {
+  padding: 10px 0px;
+    font-size: small;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin: 0px 0px 0px 30px;
+}
+
+
+.icon-footer .fa {
+    padding: 10px 10px;
+    color: #1570b7;
+    font-size: 34px;
+    letter-spacing: 8px;
+    margin-left: 20px;
+    border-radius: 100%;
+    margin-top: 10px;
+}
+
+
+.footer .logo-footer h5 {
+    margin: 0px 0px 0px 30px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.2em;
+    font-size: 18px;
+}
+
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+ .banner-part .title h1 {
+    text-align: center;
+    font-size: 50px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 600;
+    padding: 5px 0px;
+    line-height: 1.3em;
+    letter-spacing: 2px;
+}
+
+.banner-part .title p {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 400;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+
+.banner-part .btn-success {
+    margin: 0px 0px 0px 70px;
+    padding: 8px 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+    background: white;
+    transition: 1s;
+    border: 1px solid transparent;
+    border-radius: 40px;
+}
+.banner-part .title h5 {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 400;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+img {
+    max-width: 30%;
+    height: auto;
+}
+
+.group-2 .title h1 {
+    font-size: 28px;
+    text-transform: capitalize;
+    color: black;
+    font-weight: 600;
+    padding: 5px 0px;
+    line-height: 1.3em;
+    letter-spacing: 2px;
+}
+.group-2 {
+    width: 100%;
+    padding: 60px 0px;
+}
+
+.group-2 .title p {
+    font-size: small;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 400;
+    padding: 10px 0px;
+}
+.group-2-img {
+    margin: 0px 0px 0px 100px;
+    width: 100%;
+    height: auto;
+    padding: 20px 0px;
+}
+.group-3 .title h1 {
+    font-size: 22px;
+    text-transform: capitalize;
+    color: red;
+    font-weight: 600;
+    padding: 5px 0px;
+    line-height: 1.3em;
+    letter-spacing: 2px;
+}
+
+.group-3 .title p {
+    font-size: 10px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 400;
+}
+
+.group-4 .grp-4-img {
+    width: 100%;
+    height: auto;
+    margin: 0px 0px 0px 100px;
+}
+.group-4 .title h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: black;
+    font-weight: 900;
+     padding: 0px 0px; 
+    line-height: 1.3em;
+    letter-spacing: 2px;
+}
+.group-4 .title {
+    padding: 10px 0px;
+}
+.group-5 .title h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: black;
+    font-weight: 900;
+     padding: 0px 0px; 
+    line-height: 1.3em;
+    letter-spacing: 2px;
+}
+
+.group-4 {
+    width: 100%;
+    padding: 30px 0px;
+}
+.group-5 .title p {
+    font-size: 13px;
+    padding: 20px 0px;
+    text-transform: capitalize;
+    color: black;
+    font-weight: 400;
+}
+.group-5 .title {
+    padding: 20px 0px;
+     margin: 0px 0px 0px 0px; 
+}
+.grp-5-btn {
+     margin: 0px 0px 0px 0px; 
+}
+
+.group-5 .grp-5-img {
+    width: 100%;
+    height: auto;
+    margin: 0px 0px 0px 100px;
+    padding: 30px 0px;
+}
+.group-7 {
+    width: 100%;
+    padding: 0px 0px; 
+}
+
+.group-6 {
+    width: 100%;
+    padding: 20px 0px;
+    text-align: center;
+    background: url(../images/Background.png) center top no-repeat;
+    background-size: cover;
+}
+
+.group-7 .title h1 {
+    font-size: 30px;
+    text-transform: capitalize;
+    color: black;
+    font-weight: 900;
+    padding: 5px 0px;
+    line-height: 1.3em;
+    letter-spacing: 2px;
+}
+.group-7 .title {
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.group-7 .title-1 {
+    padding: 40px 0px;
+    text-align: center;
+}
+
+.grp-8 {
+    width: 100%;
+    padding: 20px 0px;
+}
+
+
+p {
+    font-size: 16px;
+    margin: 0px 0px 0px 30px;
+    margin-bottom: 1rem;
+}
+
+.footer .logo-footer h5 {
+  padding: 15px 0px;
+    text-align: center;
+     margin: 0px 0px 0px 30px; 
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.2em;
+     font-size: 20px; 
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    margin: 0px 0px 0px 40px;
+    margin-bottom: 1rem;
+}
+
+
+  
+}
+
+
+  
